@@ -1,7 +1,7 @@
 check_beerbug
 =============
 
-op5 Monitor/Naemon/Nagios plugin for checking beerbug IP
+op5 Monitor/Naemon/Nagios plugin for checking beerbug API
 
 Measures:
 * Battery Percentage
@@ -12,7 +12,7 @@ Measures:
 * Alcohol
 * Progress
 
-Usage: ./check_beerbug -d [measure point] -u [Temperature unit]
+Usage: ./check_beerbug -d [measure point] -f [Use Farenheit]
 
 Edit the api_key and bugid in the script.
 
